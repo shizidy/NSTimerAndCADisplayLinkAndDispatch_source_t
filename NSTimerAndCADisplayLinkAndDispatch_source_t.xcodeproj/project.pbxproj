@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A8856E5230A49430087740E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8856E4230A49430087740E /* AppDelegate.m */; };
+		9A8856E8230A49430087740E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8856E7230A49430087740E /* ViewController.m */; };
+		9A8856EB230A49430087740E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8856E9230A49430087740E /* Main.storyboard */; };
+		9A8856ED230A49450087740E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8856EC230A49450087740E /* Assets.xcassets */; };
+		9A8856F0230A49450087740E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8856EE230A49450087740E /* LaunchScreen.storyboard */; };
+		9A8856F3230A49450087740E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8856F2230A49450087740E /* main.m */; };
+		9A8856FD230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8856FC230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tTests.m */; };
+		9A885708230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A885707230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A8856F9230A49450087740E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A8856D8230A49430087740E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8856DF230A49430087740E;
+			remoteInfo = NSTimerAndCADisplayLinkAndDispatch_source_t;
+		};
+		9A885704230A49450087740E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A8856D8230A49430087740E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8856DF230A49430087740E;
+			remoteInfo = NSTimerAndCADisplayLinkAndDispatch_source_t;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A8856E0230A49430087740E /* NSTimerAndCADisplayLinkAndDispatch_source_t.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTimerAndCADisplayLinkAndDispatch_source_t.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8856E3230A49430087740E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A8856E4230A49430087740E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A8856E6230A49430087740E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A8856E7230A49430087740E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A8856EA230A49430087740E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A8856EC230A49450087740E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A8856EF230A49450087740E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A8856F1230A49450087740E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8856F2230A49450087740E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A8856F8230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTimerAndCADisplayLinkAndDispatch_source_tTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8856FC230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTimerAndCADisplayLinkAndDispatch_source_tTests.m; sourceTree = "<group>"; };
+		9A8856FE230A49450087740E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A885703230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTimerAndCADisplayLinkAndDispatch_source_tUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A885707230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTimerAndCADisplayLinkAndDispatch_source_tUITests.m; sourceTree = "<group>"; };
+		9A885709230A49450087740E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A8856DD230A49430087740E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8856F5230A49450087740E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A885700230A49450087740E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A8856D7230A49430087740E = {
+			isa = PBXGroup;
+			children = (
+				9A8856E2230A49430087740E /* NSTimerAndCADisplayLinkAndDispatch_source_t */,
+				9A8856FB230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tTests */,
+				9A885706230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tUITests */,
+				9A8856E1230A49430087740E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A8856E1230A49430087740E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A8856E0230A49430087740E /* NSTimerAndCADisplayLinkAndDispatch_source_t.app */,
+				9A8856F8230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tTests.xctest */,
+				9A885703230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A8856E2230A49430087740E /* NSTimerAndCADisplayLinkAndDispatch_source_t */ = {
+			isa = PBXGroup;
+			children = (
+				9A8856E3230A49430087740E /* AppDelegate.h */,
+				9A8856E4230A49430087740E /* AppDelegate.m */,
+				9A8856E6230A49430087740E /* ViewController.h */,
+				9A8856E7230A49430087740E /* ViewController.m */,
+				9A8856E9230A49430087740E /* Main.storyboard */,
+				9A8856EC230A49450087740E /* Assets.xcassets */,
+				9A8856EE230A49450087740E /* LaunchScreen.storyboard */,
+				9A8856F1230A49450087740E /* Info.plist */,
+				9A8856F2230A49450087740E /* main.m */,
+			);
+			path = NSTimerAndCADisplayLinkAndDispatch_source_t;
+			sourceTree = "<group>";
+		};
+		9A8856FB230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A8856FC230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tTests.m */,
+				9A8856FE230A49450087740E /* Info.plist */,
+			);
+			path = NSTimerAndCADisplayLinkAndDispatch_source_tTests;
+			sourceTree = "<group>";
+		};
+		9A885706230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A885707230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tUITests.m */,
+				9A885709230A49450087740E /* Info.plist */,
+			);
+			path = NSTimerAndCADisplayLinkAndDispatch_source_tUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A8856DF230A49430087740E /* NSTimerAndCADisplayLinkAndDispatch_source_t */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A88570C230A49450087740E /* Build configuration list for PBXNativeTarget "NSTimerAndCADisplayLinkAndDispatch_source_t" */;
+			buildPhases = (
+				9A8856DC230A49430087740E /* Sources */,
+				9A8856DD230A49430087740E /* Frameworks */,
+				9A8856DE230A49430087740E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTimerAndCADisplayLinkAndDispatch_source_t;
+			productName = NSTimerAndCADisplayLinkAndDispatch_source_t;
+			productReference = 9A8856E0230A49430087740E /* NSTimerAndCADisplayLinkAndDispatch_source_t.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A8856F7230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A88570F230A49450087740E /* Build configuration list for PBXNativeTarget "NSTimerAndCADisplayLinkAndDispatch_source_tTests" */;
+			buildPhases = (
+				9A8856F4230A49450087740E /* Sources */,
+				9A8856F5230A49450087740E /* Frameworks */,
+				9A8856F6230A49450087740E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A8856FA230A49450087740E /* PBXTargetDependency */,
+			);
+			name = NSTimerAndCADisplayLinkAndDispatch_source_tTests;
+			productName = NSTimerAndCADisplayLinkAndDispatch_source_tTests;
+			productReference = 9A8856F8230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A885702230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A885712230A49450087740E /* Build configuration list for PBXNativeTarget "NSTimerAndCADisplayLinkAndDispatch_source_tUITests" */;
+			buildPhases = (
+				9A8856FF230A49450087740E /* Sources */,
+				9A885700230A49450087740E /* Frameworks */,
+				9A885701230A49450087740E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A885705230A49450087740E /* PBXTargetDependency */,
+			);
+			name = NSTimerAndCADisplayLinkAndDispatch_source_tUITests;
+			productName = NSTimerAndCADisplayLinkAndDispatch_source_tUITests;
+			productReference = 9A885703230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A8856D8230A49430087740E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Macmini;
+				TargetAttributes = {
+					9A8856DF230A49430087740E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					9A8856F7230A49450087740E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9A8856DF230A49430087740E;
+					};
+					9A885702230A49450087740E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9A8856DF230A49430087740E;
+					};
+				};
+			};
+			buildConfigurationList = 9A8856DB230A49430087740E /* Build configuration list for PBXProject "NSTimerAndCADisplayLinkAndDispatch_source_t" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A8856D7230A49430087740E;
+			productRefGroup = 9A8856E1230A49430087740E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A8856DF230A49430087740E /* NSTimerAndCADisplayLinkAndDispatch_source_t */,
+				9A8856F7230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tTests */,
+				9A885702230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A8856DE230A49430087740E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8856F0230A49450087740E /* LaunchScreen.storyboard in Resources */,
+				9A8856ED230A49450087740E /* Assets.xcassets in Resources */,
+				9A8856EB230A49430087740E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8856F6230A49450087740E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A885701230A49450087740E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A8856DC230A49430087740E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8856E8230A49430087740E /* ViewController.m in Sources */,
+				9A8856F3230A49450087740E /* main.m in Sources */,
+				9A8856E5230A49430087740E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8856F4230A49450087740E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8856FD230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8856FF230A49450087740E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A885708230A49450087740E /* NSTimerAndCADisplayLinkAndDispatch_source_tUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A8856FA230A49450087740E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A8856DF230A49430087740E /* NSTimerAndCADisplayLinkAndDispatch_source_t */;
+			targetProxy = 9A8856F9230A49450087740E /* PBXContainerItemProxy */;
+		};
+		9A885705230A49450087740E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A8856DF230A49430087740E /* NSTimerAndCADisplayLinkAndDispatch_source_t */;
+			targetProxy = 9A885704230A49450087740E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A8856E9230A49430087740E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A8856EA230A49430087740E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A8856EE230A49450087740E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A8856EF230A49450087740E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A88570A230A49450087740E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A88570B230A49450087740E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A88570D230A49450087740E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKN88ZK5LF;
+				INFOPLIST_FILE = NSTimerAndCADisplayLinkAndDispatch_source_t/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wdy.NSTimerAndCADisplayLinkAndDispatch-source-t";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A88570E230A49450087740E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKN88ZK5LF;
+				INFOPLIST_FILE = NSTimerAndCADisplayLinkAndDispatch_source_t/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wdy.NSTimerAndCADisplayLinkAndDispatch-source-t";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A885710230A49450087740E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKN88ZK5LF;
+				INFOPLIST_FILE = NSTimerAndCADisplayLinkAndDispatch_source_tTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wdy.NSTimerAndCADisplayLinkAndDispatch-source-tTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTimerAndCADisplayLinkAndDispatch_source_t.app/NSTimerAndCADisplayLinkAndDispatch_source_t";
+			};
+			name = Debug;
+		};
+		9A885711230A49450087740E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKN88ZK5LF;
+				INFOPLIST_FILE = NSTimerAndCADisplayLinkAndDispatch_source_tTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wdy.NSTimerAndCADisplayLinkAndDispatch-source-tTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTimerAndCADisplayLinkAndDispatch_source_t.app/NSTimerAndCADisplayLinkAndDispatch_source_t";
+			};
+			name = Release;
+		};
+		9A885713230A49450087740E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKN88ZK5LF;
+				INFOPLIST_FILE = NSTimerAndCADisplayLinkAndDispatch_source_tUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wdy.NSTimerAndCADisplayLinkAndDispatch-source-tUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NSTimerAndCADisplayLinkAndDispatch_source_t;
+			};
+			name = Debug;
+		};
+		9A885714230A49450087740E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKN88ZK5LF;
+				INFOPLIST_FILE = NSTimerAndCADisplayLinkAndDispatch_source_tUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wdy.NSTimerAndCADisplayLinkAndDispatch-source-tUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NSTimerAndCADisplayLinkAndDispatch_source_t;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A8856DB230A49430087740E /* Build configuration list for PBXProject "NSTimerAndCADisplayLinkAndDispatch_source_t" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A88570A230A49450087740E /* Debug */,
+				9A88570B230A49450087740E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A88570C230A49450087740E /* Build configuration list for PBXNativeTarget "NSTimerAndCADisplayLinkAndDispatch_source_t" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A88570D230A49450087740E /* Debug */,
+				9A88570E230A49450087740E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A88570F230A49450087740E /* Build configuration list for PBXNativeTarget "NSTimerAndCADisplayLinkAndDispatch_source_tTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A885710230A49450087740E /* Debug */,
+				9A885711230A49450087740E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A885712230A49450087740E /* Build configuration list for PBXNativeTarget "NSTimerAndCADisplayLinkAndDispatch_source_tUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A885713230A49450087740E /* Debug */,
+				9A885714230A49450087740E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A8856D8230A49430087740E /* Project object */;
+}
